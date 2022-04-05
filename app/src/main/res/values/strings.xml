@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">FishBook</string>
+    <string name="type">Type</string>
+    <string name="ft">ft</string>
+    <string name="fishbook">FishBook</string>
+    <string name="in">in</string>
+    <string name="size_ft" />
+
+<string-array name="planets_array">
+    <item>Snook</item>
+    <item>Black Grouper</item>
+    <item>Goliath Grouper</item>
+    <item>Strawberry Grouper</item>
+    <item>Red Fish</item>
+    <item>Mangrove Snapper</item>
+    <item>Yellow Tail Snapper</item>
+    <item>Lady Fish</item>
+    <item>Lemon Shark</item>
+    <item>Bull Shark</item>
+    <item>Tarpon</item>
+</string-array>
+</resources>
