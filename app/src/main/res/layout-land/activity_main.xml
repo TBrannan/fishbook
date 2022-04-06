@@ -30,16 +30,16 @@
         android:layout_height="wrap_content"
         android:text="Select Species"
         android:textColor="#FFFFFF"
-        android:textSize="24sp"
+        android:textSize="34sp"
         android:textStyle="bold"
         android:theme="@style/Theme.AppCompat.DayNight"
         android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.182"
+        app:layout_constraintHorizontal_bias="0.053"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.178"
+        app:layout_constraintVertical_bias="0.164"
         tools:visibility="visible" />
 
     <TextView
@@ -82,8 +82,8 @@
         android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.415"
-        tools:layout_editor_absoluteX="0dp" />
+        app:layout_constraintVertical_bias="0.387"
+        tools:layout_editor_absoluteX="-4dp" />
 
     <View
         android:id="@+id/view"
@@ -103,10 +103,10 @@
         android:text="Weight"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/button3"
-        app:layout_constraintHorizontal_bias="0.429"
+        app:layout_constraintHorizontal_bias="0.433"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.313" />
+        app:layout_constraintVertical_bias="0.27" />
 
     <Button
         android:id="@+id/button4"
@@ -114,35 +114,33 @@
         android:layout_height="68dp"
         android:text="Day Caught"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/button5"
-        app:layout_constraintHorizontal_bias="0.446"
+        app:layout_constraintEnd_toStartOf="@+id/button3"
+        app:layout_constraintHorizontal_bias="0.429"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.523" />
+        app:layout_constraintVertical_bias="0.472" />
 
     <Button
         android:id="@+id/button3"
         android:layout_width="128dp"
         android:layout_height="68dp"
+        android:layout_marginEnd="48dp"
         android:text="Length"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.83"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.313" />
+        app:layout_constraintVertical_bias="0.269" />
 
     <Button
         android:id="@+id/button5"
         android:layout_width="128dp"
         android:layout_height="68dp"
+        android:layout_marginEnd="52dp"
         android:text="Time Caught"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.83"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.523" />
+        app:layout_constraintVertical_bias="0.472" />
 
     <com.google.android.gms.maps.MapView
         android:id="@+id/mapView"
@@ -161,10 +159,10 @@
         android:layout_height="33dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.943"
+        app:layout_constraintHorizontal_bias="0.879"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.179"
+        app:layout_constraintVertical_bias="0.177"
         app:srcCompat="@drawable/snook" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
